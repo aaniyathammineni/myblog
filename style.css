@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+#welcome{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background:linear-gradient(red,pink);
+    height: 800px;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+#profile{
+    height: 150px;
+    border-radius: 50px
+    
+}
+#harrypotter{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    position:relative;
+}
+.menu{
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+    right: 200px;
+   list-style: none;
+    cursor: pointer
+    
+    
+}
+.menuitem{
+    float: left;
+    padding: 10px;
+      font-family: 'Oswald', sans-serif;  
+}
